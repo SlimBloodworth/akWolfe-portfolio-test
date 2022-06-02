@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* -- RESETS -- */
+
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -- ^^ END RESETS ^^ -- */
+
+
+/* -- UTILITY CLASSES -- */
+
+
+/* -- ^^ END UTILITY CLASSES ^^ -- */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* --   DESIGN SYSTEM  -- */
+
+.main-body {
+    background-color: #dcd7ca;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 20%;
+}
+
+
+/*FONTS*/
+
+div {
+    margin-top: 20px;
+}
+
+.limelight {
+    font-family: 'Limelight', cursive;
+}
+
+.poiret {
+    font-family: 'Poiret One', cursive;
+}
+
+.montserrat-alt {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.righteous {
+    font-family: 'Righteous', cursive;
+}
+
+
+/* -- ^^ END DESIGN SYSTEM ^^ -- */
+
+
+/* --   HERO HEADER  -- */
+
+.primary-header {
+    background-image: url("/assets/images/umbrellas-rainbow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100vw;
+}
+
+.primary_logo {
+    padding: 2%;
+    max-width: 612px;
+}
+
+.logo {
+    min-width: 100%;
+}
+
+
+/* --   PRIMARY NAV  -- */
+
+.primary_nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    transition: all 0.8s;
+}
+
+.primary_nav a {
+    text-transform: uppercase;
+    color: rgba(251, 251, 255, 1);
+}
+
+
+/* --  ^^ END PRIMARY NAV ^^  -- */
+
+
+/* --  ^^ END HERO HEADER ^^  -- */
+
+
+/* --   MAIN BODY  -- */
+
+
+/* --   THUMBNAILS -- */
+
+
+/* --  ^^ END THUMBNAILS ^^  -- */
+
+
+/* --  ^^ END MAIN BODY ^^  -- */
