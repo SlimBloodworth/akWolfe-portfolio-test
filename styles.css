@@ -73,7 +73,7 @@ div {
 /* --   HERO HEADER  -- */
 
 .primary-header {
-    background-image: url("../assets/images/umbrellas-rainbow.jpg");
+    background-image: url("assets/images/umbrellas-rainbow.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
