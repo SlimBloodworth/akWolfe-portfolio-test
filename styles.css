@@ -82,12 +82,13 @@ div {
 }
 
 .primary_logo {
-    padding: 2%;
     max-width: 612px;
+    padding: 2%;
 }
 
 .logo {
-    min-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 
